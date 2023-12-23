@@ -1,0 +1,72 @@
+:root{
+    --yellow: #F5D04E;
+    --gray: #929292;
+}
+*{
+    background-color: var(--yellow);
+}
+.all{
+    background-color: white;
+    margin:100px 40% ;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 11px 0px 0px rgba(0,0,0,1);
+-webkit-box-shadow: 10px 11px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: 10px 11px 0px 0px rgba(0,0,0,1);
+}
+.img{
+    width: 330px;
+    border-radius: 8px;
+}
+.section{
+    background-color: var(--yellow);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+    height: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+.date{
+    background-color: white;
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.title{
+    background-color: white;
+    font-size: 22px;
+    font-family: serif,fantasy;
+    margin-top: -5px;
+}
+.des{
+    background-color: white;
+    color: var(--gray);
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+.profile{
+    background-color: white;
+}
+.pdp{
+    background-color: white;
+    width: 30px;
+}
+.name{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-top: -27px;
+}
+.attribution{
+    margin-left: 40%;
+    margin-top: -70px;
+}
